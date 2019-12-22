@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainClass.GameCenterActivity"
+    android:background="@color/snow">
+
+    <TextView
+        android:id="@+id/tv_gamehouse_title"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Game House"
+        android:textAlignment="center"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/log_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20px"
+        android:layout_marginEnd="20px"
+        android:layout_marginBottom="20px"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_light"
+        android:text="Log out" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="102px"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350px"
+            android:layout_margin="1px"
+            android:background="@color/snow"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10px">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="@mipmap/scoreboard" />
+
+            <Button
+                android:id="@+id/bt_game_house_scoreboarduser"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="your score board" />
+
+            <Button
+                android:id="@+id/bt_game_house_scoreboardtop5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Top 5s" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350px"
+            android:layout_margin="1px"
+            android:background="@color/snow"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10px">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="@mipmap/sduku" />
+
+            <Button
+                android:id="@+id/slidingtiles_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Sliding Tiles" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350px"
+            android:layout_margin="1px"
+            android:background="@color/snow"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10px">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="@mipmap/saolei" />
+
+            <Button
+                android:id="@+id/minesweeper_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="mine clearance" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350px"
+            android:layout_margin="1px"
+            android:background="@color/snow"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10px">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="@mipmap/logo" />
+
+            <Button
+                android:id="@+id/connect4_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20px"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Connect 4" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:background="@color/snow">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

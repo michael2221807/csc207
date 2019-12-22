@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fall2018.csc2017.slidingtiles.StartingActivity"
+    android:background="@color/snow">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/colorPrimary"
+        android:text="Game Start"
+        android:gravity="center"
+        android:textSize="70px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="175dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/GameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="30px"
+            android:gravity="center"
+            android:text="Welcome To Sliding Tiles"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/black"
+            android:textSize="50px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="100px"
+            android:gravity="center"
+            android:text="A Puzzle Game where you must arrange the numbers in the correct order"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GameText">
+
+            <Button
+                android:id="@+id/StartButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="New Game"
+                android:textColor="@color/snow" />
+
+            <Button
+                android:id="@+id/LoadButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Load Game"
+                android:textColor="@color/snow" />
+
+            <Button
+                android:id="@+id/SaveButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Save Game"
+                android:textColor="@color/snow" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Complexity：" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:checkedButton="@+id/rb2"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="3*3" />
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="4*4" />
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="5*5" />
+            </RadioGroup>
+            '
+        </LinearLayout>
+        -->
+    </LinearLayout>
+
+</RelativeLayout>

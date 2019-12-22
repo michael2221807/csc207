@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Game Center</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_signup">Sign up</string>
+    <string name="new_game">New Game</string>
+    <string name="undo">undo</string>
+    <string name="set_step">set Step</string>
+    <string name="undo_steps">Undo Steps</string>
+    <string name="enter_the_number_of_steps_you_would_like_to_undo">Enter the number of steps you would like to undo.</string>
+    <string name="set_complexity">Set complexity</string>
+    <string name="enter_the_complexity_from_3_to_5">Enter the complexity from 3 to 5.</string>
+    <string name="gamecenter">GameCenter</string>
+    <string name="select_game_to_start">Select Game To Start</string>
+    <string name="slidingtiles">SlidingTiles</string>
+    <string name="change_the_complexity_of_game_to">Change the complexity of game to</string>
+    <string name="_4_4">4*4</string>
+    <string name="_3_3">3*3</string>
+    <string name="_5_5">5*5</string>
+    <string name="change_complexity">Change Complexity</string>
+    <string name="set_undo_step">Set Undo Step</string>
+    <string name="enter_undo_step">Enter Undo Step</string>
+    <string name="new_username">New Username</string>
+    <string name="new_password">New Password</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="textview">TextView</string>
+    <string name="welcome_to_sliding_tiles_n_a_puzzle_game_where_you_must_arrange_the_numbers_in_the_correct_order">Welcome To Sliding Tiles   A Puzzle Game where you must arrange the numbers in the correct order</string>
+    <string name="load_saved_game">Load Saved Game</string>
+    <string name="save_game">Save Game</string>
+    <string name="scoreboard">ScoreBoard</string>
+    <string name="load_auto_save">load auto Save</string>
+    <string name="setting">Setting</string>
+    <string name="logout">logout</string>
+    <string name="change_game_string_change_complexity">Change game @string/change_complexity</string>
+    <string name="change_game_complexity">Change game complexity</string>
+    <string name="title_activity_connect4__game_">Connect4_Game_Activity</string>
+    <string name="cf_undo">Undo</string>
+    <string name="welcome">Welcome</string>
+    <string name="group_0711">Group 0711</string>
+    <!--<string name="login">Login</string>-->
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="log_in">Log In</string>
+    <string name="log_in_now">LOG IN NOW</string>
+</resources>
