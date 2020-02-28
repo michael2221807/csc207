@@ -155,8 +155,8 @@ classes that have no logic involved. Tests are put in the test packages.
 Group Members
 -------------
 
-* Zhiyuan Yang (Github name: CSMYang)
-* Hanlai Chen
+* Hanlai Chen (Github: michael2221807)
+* Zhiyuan Yang
 * Yiwen Zhang
 * Renke Cao
 * Yi Wai Chow
